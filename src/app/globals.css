@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --white-900: #fffcff;
+
+  --black-500: #1a1919;
+  --black-700: #0f0f0f;
+  --black-900: #020202;
+
+  --yellow-900: #f9a03f;
+  --red-900: #b5273c;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--red-900);
+  font-family: var(--font-rethink-sans);
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: var(--white-900);
+  font-weight: 500;
+}
+
+.bodoni {
+  font-family: var(--font-bodoni);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
