@@ -1,4 +1,4 @@
-import { LogotypeSvg } from "@/assets/icons";
+import { LogotypeSvg } from "src/assets/icons";
 
 export default function Home() {
   return (
