@@ -3,7 +3,7 @@
 import Image from 'next/image';
 
 import { useEffect, useState } from 'react';
-import { SilhouettePng } from 'src/assets/images';
+import { MobLoopBlurredPng, MobLoopPng, SilhouettePng } from 'src/assets/images';
 
 import './codex.css';
 
@@ -40,15 +40,17 @@ const Codex = () => {
     <div className='w-full'>
       <div className='relative mx-auto mt-[200px] md:mt-[400px]'>
         <div className='absolute top-0 w-full text-center'>
-          <p className='text-[var(--red-900)] text-[48px] lg:text-[96px]'>CODE.</p>
-          <p className={`text-[16px] lg:text-[22px] transition-all duration-500 ${isAnimating ? 'fade-out-up' : 'fade-in-bottom'}`}>
+          <p className='text-[48px] text-[var(--red-900)] lg:text-[96px]'>CODE.</p>
+          <p
+            className={`text-[16px] transition-all duration-500 lg:text-[22px] ${isAnimating ? 'fade-out-up' : 'fade-in-bottom'}`}
+          >
             {codex[currentCodexIndex]}
           </p>
         </div>
         <Image
           src={SilhouettePng}
           alt='Silhouette '
-          className='w-[90%] max-w-[450px] mx-auto'
+          className='mx-auto w-[90%] max-w-[500px]'
         />
         <div className='absolute bottom-0 left-0 h-[50%] w-full bg-linear-190 from-transparent to-[rgba(2,2,2,1)]'></div>
       </div>
@@ -59,6 +61,11 @@ const Codex = () => {
         </span>
         growth loop.
       </p>
+      <Image
+        src={MobLoopBlurredPng}
+        alt='Mob Loop'
+        className='mx-auto mt-[40px] w-[100%] max-w-[900px] py-[50px] md:py-[100px]'
+      />
     </div>
   );
 };

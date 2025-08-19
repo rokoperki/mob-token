@@ -1,5 +1,7 @@
+import Banner from 'src/features/pages/landing/Banner';
 import Codex from 'src/features/pages/landing/Codex';
 import Hero from 'src/features/pages/landing/Hero';
+import ImageGenerator from 'src/features/pages/landing/ImageGenerator';
 
 export default function Home() {
   return (
@@ -9,6 +11,9 @@ export default function Home() {
         <Hero />
         <Codex />
       </div>
+      <Banner />
+      <ImageGenerator />
+      <div className='w-full h-[3000px]'></div>
     </div>
   );
 }

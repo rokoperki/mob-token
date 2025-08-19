@@ -4,3 +4,6 @@ export { default as LargeCoinPng } from './large-coin.png';
 export { default as ExtraLargeCoinPng } from './extra-large-coin.png';
 export { default as LogoPng } from './logo.png';
 export { default as SilhouettePng } from './silhouette.png';
+export { default as MobLoopPng } from './mob-loop.png';
+export { default as MobLoopBlurredPng } from './mob-loop-blurred.png';
+export { default as PlaceholderPng } from './placeholder.png';
