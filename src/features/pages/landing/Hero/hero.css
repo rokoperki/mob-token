@@ -1,0 +1,19 @@
+/* Floating animation */
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation only for desktop and tablet */
+  @media (min-width: 768px) {
+    .coin-animation {
+      animation: float 3s ease-in-out infinite;
+    }
+  }

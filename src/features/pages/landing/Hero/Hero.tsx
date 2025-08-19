@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import './hero.css';
 
 import { ExtraLargeCoinPng, LargeCoinPng, MediumCoinPng, SmallCoinPng } from 'src/assets/images';
 import Button from 'src/components/button';
@@ -36,22 +39,22 @@ const Hero = () => {
       <Image
         src={SmallCoinPng}
         alt='Small Coin'
-        className='absolute top-[300px] left-[-20%] hidden w-[30%] md:block lg:left-[-10%] lg:w-[25%] xl:top-[150px] xl:left-[-5%]'
+        className='coin-animation absolute top-[150px] left-[-20%] hidden w-[30%] md:block lg:left-[-10%] lg:w-[25%] xl:top-[150px] xl:left-[-5%]'
       />
       <Image
         src={MediumCoinPng}
         alt='Small Coin'
-        className='absolute top-[300px] right-[-25%] hidden w-[40%] md:block lg:right-[-15%] lg:w-[35%] xl:top-[150px]'
+        className='coin-animation absolute top-[150px] lg:top-[200px] right-[-25%] hidden w-[40%] md:block lg:right-[-15%] lg:w-[35%] xl:top-[50px]'
       />
       <Image
         src={LargeCoinPng}
         alt='Small Coin'
-        className='absolute top-[380px] left-[-20%] hidden w-[55%] md:block lg:top-[460px] lg:left-[-15%] lg:w-[45%] xl:top-[350px] xl:left-[-10%]'
+        className='coin-animation absolute top-[380px] left-[-20%] hidden w-[55%] md:block lg:top-[460px] lg:left-[-15%] lg:w-[45%] xl:top-[350px] xl:left-[-10%]'
       />
       <Image
         src={ExtraLargeCoinPng}
         alt='Small Coin'
-        className='mt-[170px] ml-[5%] scale-[270%] rotate-[-40deg] sm:mt-[120px] sm:scale-200 md:absolute md:right-[-40%] md:w-[90%] md:scale-100 lg:top-[450px] lg:right-[-32%] lg:w-[75%] xl:top-[350px] 2xl:right-[-28%]'
+        className='coin-animation mt-[170px] ml-[5%] scale-[200%] rotate-[-40deg] sm:mt-[120px] md:mt-0 sm:scale-200 md:top-[350px] md:absolute md:right-[-40%] md:w-[90%] md:scale-100 lg:top-[400px] lg:right-[-32%] lg:w-[75%] xl:top-[200px] 2xl:right-[-28%]'
       />
     </div>
   );
