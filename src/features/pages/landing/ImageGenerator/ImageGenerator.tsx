@@ -41,9 +41,9 @@ const ImageGenerator = () => {
   return (
     <div
       ref={sectionRef}
-      className='relative  px-[10px] md:px-[32px]'
+      className='relative px-[10px] md:px-[32px]'
     >
-      <div className='w-full rounded-[48px] bg-[var(--black-900)] pt-[130px] pb-[100px]'>
+      <div className='w-full rounded-t-[48px] bg-[var(--black-900)] pt-[130px] pb-[100px]'>
         <div
           ref={pRef}
           className={cn('z-[50] w-full py-[10px] text-center', {
@@ -52,14 +52,14 @@ const ImageGenerator = () => {
             'absolute top-[20px] left-0': !isFixed && !isAtBottom,
           })}
         >
-          <p className='mx-auto flex max-w-[1440px] translate-y-[70px] rotate-[5deg] items-center gap-[20px] overflow-hidden bg-[var(--yellow-900)] py-[5px] text-[40px] whitespace-nowrap text-black shadow-xl'>
+          <p className='mx-auto flex max-w-[1440px] translate-y-[40px]  md:translate-y-[70px] rotate-[5deg] items-center gap-[20px] overflow-hidden bg-[var(--yellow-900)] py-[5px] text-[20px] md:text-[40px] whitespace-nowrap text-black shadow-xl'>
             COMING <span className='bodoni'>SOON</span>
             COMING <span className='bodoni'>SOON</span>
             COMING <span className='bodoni'>SOON</span>
             COMING <span className='bodoni'>SOON</span>
             COMING <span className='bodoni'>SOON</span>
           </p>
-          <p className='mx-auto flex max-w-[1440px] rotate-[-5deg] items-center gap-[20px] overflow-hidden bg-[var(--yellow-900)] py-[5px] text-[40px] whitespace-nowrap text-black  shadow-xl'>
+          <p className='mx-auto flex max-w-[1440px] rotate-[-5deg] items-center gap-[20px] overflow-hidden bg-[var(--yellow-900)] py-[5px] text-[20px] md:text-[40px] whitespace-nowrap text-black shadow-xl'>
             COMING <span className='bodoni'>SOON</span>
             COMING <span className='bodoni'>SOON</span>
             COMING <span className='bodoni'>SOON</span>
