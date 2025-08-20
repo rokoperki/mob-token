@@ -1,4 +1,4 @@
-export { default as LogotypeSvg } from './Logotype.svg';
+export { default as LogotypeSvg } from './logotype.svg';
 
 export { default as HamburgerSvg } from './hamburger.svg';
 export { default as CloseSvg } from './close.svg';
