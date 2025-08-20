@@ -36,7 +36,7 @@ const Family = () => {
     };
   }, []);
   return (
-    <div className='mx-[10px] rounded-b-[48px] bg-[var(--black-900)] pt-[200px] md:mx-[32px]'>
+    <div className='mx-[10px] rounded-b-[48px] bg-[var(--black-900)] pt-[100px] md:pt-[200px] pb-[20px] md:mx-[32px]'>
       <div
         className='relative w-full rounded-b-[48px] bg-[var(--black-900)] pb-[150px]'
         ref={sectionRef}
@@ -49,7 +49,7 @@ const Family = () => {
             'absolute top-[20px] left-0': !isFixed && !isAtBottom,
           })}
         >
-          <p className='text-center text-[48px] leading-[90%] text-[var(--red-900)] uppercase md:text-[88px] lg:text-[96px]'>
+          <p className='text-center text-[48px] leading-[100%] text-[var(--red-900)] uppercase md:text-[88px] lg:text-[96px]'>
             We are
             <span className='bodoni text-[var(--yellow-900)]'> family.</span>
           </p>
