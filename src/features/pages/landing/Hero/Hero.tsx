@@ -19,8 +19,8 @@ const Hero = () => {
         </span>
       </p>
       <p className='mx-auto mt-[24px] max-w-[470px] text-center text-[16px] text-[rgba(255,252,255,0.7)] lg:mt-[36px] lg:max-w-[670px]'>
-        Join the Solana Mob and you're in for life. We're a family, united in our business-first approach. Follow our
-        code, and the world is yours; betray us, and you'll regret it.
+        Join the Solana Mob and you&apos;re in for life. We&apos;re a family, united in our business-first approach. Follow our
+        code, and the world is yours; betray us, and you&apos;ll regret it.
       </p>
       <div className='mx-auto mt-[24px] flex w-fit items-center gap-[20px] lg:mt-[42px]'>
         <Button
