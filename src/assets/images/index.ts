@@ -7,7 +7,7 @@ export { default as SilhouettePng } from './silhouette.png';
 export { default as MobLoopPng } from './mob-loop.png';
 export { default as MobLoopBlurredPng } from './mob-loop-blurred.png';
 export { default as PlaceholderPng } from './placeholder.png';
-
+export { default as LogotypePng } from './logotype.png';
 
 //FAMILY
 export { default as Family1Png } from './family/family-1.png';
